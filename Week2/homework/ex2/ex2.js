@@ -26,7 +26,13 @@ const createAuthorsPapersTable = `
     CONSTRAINT PK_Author_Paper PRIMARY KEY (authorNo, paperId)
   );`;
 
+  const connection = mysql.createConnection(CONNECTION_CONFIG);
+  const execQuery = util.promisify(connection.query.bind(connection));
+  const readFile = util.promisify(fs.readFile);
+
+
 async function main() {
+
 
   try {
     await execQuery(createResearchPapersTable);
@@ -35,7 +41,7 @@ async function main() {
     const authorsData = await readFile(__dirname + "/authors.json", "utf8");
     const authors = await JSON.parse(authorsData);
     const promises1 = authors.map((author) =>
-      execQuery("INSERT INTO authors SET ?", author)
+      execQuery("INSERT INTO Authors SET ?", author)
     );
 
     const paperData = await readFile(
@@ -44,7 +50,7 @@ async function main() {
     );
     const papers = await JSON.parse(paperData);
     const promises2 = papers.map((paper) =>
-      execQuery("INSERT INTO research_papers SET ?", paper)
+      execQuery("INSERT INTO Research_Papers SET ?", paper)
     );
 
     const authorPaperData = await readFile(
@@ -53,7 +59,7 @@ async function main() {
     );
     const authorPapers = await JSON.parse(authorPaperData);
     const promises3 = authorPapers.map((authorPaper) =>
-      execQuery("INSERT INTO author_paper SET ?", authorPaper)
+      execQuery("INSERT INTO Authors_Papers SET ?", authorPaper)
     );
 
     const collaboratorsData = await readFile(
