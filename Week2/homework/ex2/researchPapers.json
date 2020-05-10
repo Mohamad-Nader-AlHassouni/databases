@@ -1,0 +1,182 @@
+[
+    {
+        "paper_id": "101",
+        "paper_title": "HTML",
+        "conference": "Amsterdam",
+        "publish_date": "2001-01-01"
+    },
+    {
+        "paper_id": "102",
+        "paper_title": "CSS",
+        "conference": "The Hague",
+        "publish_date": "2002-02-02"
+    },
+    {
+        "paper_id": "103",
+        "paper_title": "GIT",
+        "conference": "Rotterdam",
+        "publish_date": "2003-03-03"
+    },
+    {
+        "paper_id": "104",
+        "paper_title": "JavaScript",
+        "conference": "Utrecht",
+        "publish_date": "2004-04-04"
+    },
+    {
+        "paper_id": "105",
+        "paper_title": "Node.js",
+        "conference": "Delft",
+        "publish_date": "2005-05-05"
+    },
+    {
+        "paper_id": "106",
+        "paper_title": "Databases",
+        "conference": "Maastricht",
+        "publish_date": "2006-06-06"
+    },
+    {
+        "paper_id": "107",
+        "paper_title": "React",
+        "conference": "Leiden",
+        "publish_date": "2007-07-07"
+    },
+    {
+        "paper_id": "108",
+        "paper_title": "Python",
+        "conference": "Eindhoven",
+        "publish_date": "2008-08-08"
+    },
+    {
+        "paper_id": "109",
+        "paper_title": "Java",
+        "conference": "Haarlem",
+        "publish_date": "2009-09-09"
+    },
+    {
+        "paper_id": "110",
+        "paper_title": "C#",
+        "conference": "Breda",
+        "publish_date": "2010-10-10"
+    },
+    {
+        "paper_id": "111",
+        "paper_title": "C++",
+        "conference": "Groningen",
+        "publish_date": "2011-11-11"
+    },
+    {
+        "paper_id": "112",
+        "paper_title": "PHP",
+        "conference": "Arnhem",
+        "publish_date": "2012-12-12"
+    },
+    {
+        "paper_id": "113",
+        "paper_title": "Swift",
+        "conference": "Gouda",
+        "publish_date": "2013-03-13"
+    },
+    {
+        "paper_id": "114",
+        "paper_title": "Ruby",
+        "conference": "Zwolle",
+        "publish_date": "2014-04-14"
+    },
+    {
+        "paper_id": "115",
+        "paper_title": "GO",
+        "conference": "Alkmaar",
+        "publish_date": "2015-05-15"
+    },
+    {
+        "paper_id": "116",
+        "paper_title": "HTML(2)",
+        "conference": "Amsterdam",
+        "publish_date": "2001-01-01"
+    },
+    {
+        "paper_id": "117",
+        "paper_title": "CSS(2)",
+        "conference": "The Hague",
+        "publish_date": "2002-02-02"
+    },
+    {
+        "paper_id": "118",
+        "paper_title": "GIT(2)",
+        "conference": "Rotterdam",
+        "publish_date": "2003-03-03"
+    },
+    {
+        "paper_id": "119",
+        "paper_title": "JavaScript(2)",
+        "conference": "Utrecht",
+        "publish_date": "2004-04-04"
+    },
+    {
+        "paper_id": "120",
+        "paper_title": "Node.js(2)",
+        "conference": "Delft",
+        "publish_date": "2005-05-05"
+    },
+    {
+        "paper_id": "121",
+        "paper_title": "Databases(2)",
+        "conference": "Maastricht",
+        "publish_date": "2006-06-06"
+    },
+    {
+        "paper_id": "122",
+        "paper_title": "React(2)",
+        "conference": "Leiden",
+        "publish_date": "2007-07-07"
+    },
+    {
+        "paper_id": "123",
+        "paper_title": "Python(2)",
+        "conference": "Eindhoven",
+        "publish_date": "2008-08-08"
+    },
+    {
+        "paper_id": "124",
+        "paper_title": "Java(2)",
+        "conference": "Haarlem",
+        "publish_date": "2009-09-09"
+    },
+    {
+        "paper_id": "125",
+        "paper_title": "C#(2)",
+        "conference": "Breda",
+        "publish_date": "2010-10-10"
+    },
+    {
+        "paper_id": "126",
+        "paper_title": "C++(2)",
+        "conference": "Groningen",
+        "publish_date": "2011-11-11"
+    },
+    {
+        "paper_id": "127",
+        "paper_title": "PHP(2)",
+        "conference": "Arnhem",
+        "publish_date": "2012-12-12"
+    },
+    {
+        "paper_id": "128",
+        "paper_title": "Swift(2)",
+        "conference": "Gouda",
+        "publish_date": "2013-03-13"
+    },
+    {
+        "paper_id": "129",
+        "paper_title": "Ruby(2)",
+        "conference": "Zwolle",
+        "publish_date": "2014-04-14"
+    },
+    {
+        "paper_id": "130",
+        "paper_title": "GO(2)",
+        "conference": "Alkmaar",
+        "publish_date": "2015-05-15"
+    }
+]
