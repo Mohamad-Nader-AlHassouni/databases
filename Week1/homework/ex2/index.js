@@ -1,4 +1,5 @@
 var mysql = require("mysql");
+
 var connection = mysql.createConnection({
   host: "localhost",
   user: "hyfuser",
@@ -40,3 +41,4 @@ for (let i in queryObj)
   });
 
 connection.end();
+

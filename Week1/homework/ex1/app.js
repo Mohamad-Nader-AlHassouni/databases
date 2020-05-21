@@ -1,4 +1,5 @@
 var mysql = require("mysql");
+
 var connection = mysql.createConnection({
   host: "localhost",
   user: "hyfuser",
@@ -27,24 +28,24 @@ const create_tables = [
 ];
 
 const insert_queries = [
-  //invitee table
+  //Invitee table
   "insert into Invitee values (1, 'Fede', 'Wouter')",
   "insert into Invitee values (2, 'Tjebbe', 'Wouter')",
   "insert into Invitee values (3, 'Noer', 'Wouter')",
   "insert into Invitee values (4, 'Unmesh', 'Wouter')",
   "insert into Invitee values (5, 'Igor', 'Wouter')",
-  //room table
-  "insert into room values (1, 'Amsterdam', 11)",
-  "insert into room values (2, 'The Hague', 12)",
-  "insert into room values (3, 'Rotterdam', 13)",
-  "insert into room values (4, 'Leiden', 14)",
-  "insert into room values (5, 'Utrecht', 15)",
-  //meeting table
-  "insert into meeting values (1, 'Class 27', '13:00' , '14:00', 1)",
-  "insert into meeting values (2, 'Class 26', '15:00' , '16:00', 2)",
-  "insert into meeting values (3, 'Class 25', '13:00' , '14:00', 3)",
-  "insert into meeting values (4, 'Class 24', '13:00' , '14:00', 4)",
-  "insert into meeting values (5, 'Class 23', '17:00' , '18:00', 5)",
+  //Room table
+  "insert into Room values (1, 'Amsterdam', 11)",
+  "insert into Room values (2, 'The Hague', 12)",
+  "insert into Room values (3, 'Rotterdam', 13)",
+  "insert into Room values (4, 'Leiden', 14)",
+  "insert into Room values (5, 'Utrecht', 15)",
+  //Meeting table
+  "insert into Meeting values (1, 'Class 27', '13:00' , '14:00', 1)",
+  "insert into Meeting values (2, 'Class 26', '15:00' , '16:00', 2)",
+  "insert into Meeting values (3, 'Class 25', '13:00' , '14:00', 3)",
+  "insert into Meeting values (4, 'Class 24', '13:00' , '14:00', 4)",
+  "insert into Meeting values (5, 'Class 23', '17:00' , '18:00', 5)",
 ];
 
 for (let i in create_tables) {
