@@ -30,16 +30,21 @@ Q3. What are the potential relationships between different possible tables ?
 A3. we seperate the table into 4 small tables like the following 
 
     Members Table
-    member_id | member_name | member_address | dinner_id
+    member_id | member_name | member_address
 
-    Date And Place Table
-    dinner_id | dinner_date | venue_code 
+    Food Table
+    main_course | main_course_code | drink | drink_code | dessert | dessert_code
+
+    Venue Table
+    venue_code | venue_description
 
     Dinner Table
-    dinner_id | main_course | main_course_code | drink | drink_code | dessert | dessert_code
+    dinner_id | dinner_date
 
-    Place details Table
-    venue_code | venue_description
+    Relation Table
+    member_id | dinner_id | venue_code | main_course_code | drink_code | dessert_code
+
+
 
 Q4. How can you develop the set of 3NF tables?
 A4. if we take the tables from A3,
